@@ -2,8 +2,51 @@ h1{
     color : red ; 
     text-align: center;
     font-size: 50px;
+    position: relative;
+    bottom: 10px;
 }
 
 form{
     text-align: center;
+    position: relative;
+    top : 120px;
+    bottom: 10px;
+    right : 30px;
+    font-size:25px;
 }
+
+.topBG{
+    height: 100px;
+    background-color: #f6cece;
+    width: 100%;
+    position: relative;
+    bottom : 370px;
+    z-index: -1;
+}
+
+button{
+
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+    background-color:red;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: relative;
+    top: 20px;
+}
+
+.regBG{
+
+    height: 500px;
+    width: 700px;
+    background-color: rgb(255, 233, 233) ;
+    position: relative;
+    left : 450px;
+    bottom : 370px;
+    z-index: -1;
+}
+
+
+    
